@@ -2,3 +2,8 @@
 
 # ignore files in runs
 output/runs/*/*
+
+# ignore files in apps folder
+apps/*
+
+Rplots.pdf

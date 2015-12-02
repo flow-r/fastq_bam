@@ -86,6 +86,11 @@ bwa.backtrack <- function(
   bam_files = file.path(gsub(chkfq$ext, "bam", basename(fqs1)))
   bam_prefix = gsub(".bam", "", bam_files)
 
+  # use full absolute path
+  fqs1 = tools::file_path_as_absolute(fqs1)
+  fqs2 = tools::file_path_as_absolute(fqs2)
+  ref_bwa = tools::file_path_as_absolute(ref_bwa)
+
   ## --- BWA aln and sampe
   #bwa_method <- match.arg(bwa_method)
 

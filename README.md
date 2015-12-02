@@ -29,3 +29,11 @@ fqs2=input/target_brca_example/brca.example.illumina.0.2.fastq
 # by default this will create a flowmat and flowdef
 flowr run x=fastq_bam_bwa fqs1=$fqs1 fqs2=$fqs2 samplename=samp
 ```
+
+
+**notes**
+
+ Files `00_install_deps.sh`, `01_run_pipe.sh` and `02_run_tests.sh` are used in
+ automated testing.
+
+ These are still a work in progress.

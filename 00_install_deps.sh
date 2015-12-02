@@ -1,5 +1,5 @@
 # we will use brew to install are dependencies
-PREFIX=bin
+PREFIX=apps
 
 # ----------------------------------- DISCLAIMER ----------------------------- #
 # - the following is automatically tested on a ubuntu system
@@ -36,5 +36,3 @@ Rscript -e 'install.packages("flowr", repos = "http://sahilseth.github.io/drat")
 # alternative installation instructions:
 wget https://github.com/broadinstitute/picard/releases/download/1.140/picard-tools-1.140.zip -O apps/picard-tools-1.140.zip
 unzip -d apps apps/picard-tools-1.140.zip
-
-# --------------------------- install flowr ------------------------------- #
