@@ -1,0 +1,4 @@
+
+
+# ignore files in runs
+output/runs/*/*
